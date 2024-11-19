@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Garamond;
+  padding: 5px;
+  background: #382208;
+}
+
+/* Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #DBC1AA;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 50%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 50%;
+  background-color: #382208;
+  padding-left: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #DBC1AA;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #DBC1AA;
+  margin-top: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+
+  <h1>Alex Martinez-Cepeda</h1>
+  <p>St. Mary's University Sophomore in Computer Science</p>
+
+</div>
+
+<!-- CONTENT -->
+<div class="row">
+
+  <!-- LEFT SIDE -->
+  <div class="leftcolumn">
+    
+  <div class="card">
+      <h2>Education</h2>
+      <p><b>Bachelor of Science in Computer Science <br>
+          Minor in Mathematics <br>
+          Expected: May 2027</b></p>
+      <p><b>Scholarships:</b> NSF LSAMP (Oct 2023), Gateway (Aug 2023), Prefreshman Engineering Program (Jul 2019) </p>
+      <p>I am currently a student at St. Mary's University pursuing a degree in Computer Science with a concentration in Game Development. While at the undergraduate level, I have worked on computer science projects and plan to use this opportunity to enter the workforce and innovate with AI and virtual reality technology.</p>
+    </div>
+
+    <div class="card">
+      <h2>Leadership Experience</h2>
+      <p><b>Secretary</b> (January 2024 – Present)<br>
+         <b><i>St. Mary's Anime Club (SMAC)</i></b><br>
+      <ul>
+	<li>Kept meeting minutes and documentation on all administrative forms and master documents</li>
+	<li>Revised and updated bylaws to establish greater organization within the club and for campus recognition</li>
+	<li>Evaluated logistics for events and event planning</li>
+	<li>Initiated communication between officers and members on event updates and collected feedback</li>
+      </ul>
+      </p>
+      <p><b>High Gamma</b> (April 2024 – Present)<br>
+         <b><i>Lambda Chi Alpha Fraternity</i></b><br>
+      <ul>
+	<li>Kept meeting minutes and attendance records for every chapter meeting and mandatory events</li>
+	<li>Maintained Chapter records and roster</li>
+	<li>Submitted applications for Chapter awards to the National Fraternity</li>
+	<li>Supplied reports to High Alpha (President) when requested</li>
+        <li>Initiated a project that allowed brothers to network with potential corporate sponsors</li>
+      </ul>
+      </p>
+    </div>
+
+  </div> <!-- end of left side -->
+
+  <!-- RIGHT SIDE -->
+  <div class="rightcolumn">
+    
+    <!-- SKILLS BLOCK -->
+    <div class="card">
+      <h2>Skills</h2>
+      <p><ul>
+             <li><b>Computer:</b> Proficient in Java, C, and C++; Proficient in Microsoft Software, Google Suites, and Adobe Software </li>
+             <li><b>Photography:</b> Proficient in the Commercial Photography Process (3y); Proficient in Adobe Photoshop (Certified) </li>
+             <li>Developmental: Thrives in situations that permit expansion of skills and personal/professional development </li>
+	     <li>Organizational: Contributes by maintaining structure and keeping documentation</li>
+      </ul></p>
+    </div>
+    
+    <!-- PROJECTS BLOCK -->
+    <div class="card">
+      <h3>Projects</h3>
+      <p><b>Commercial Photographer</b> (August 2021 – May 2023) <br>
+         <b><i>Business and Industry Career and Technical Education Course</i></b><br>
+	 <ul>
+	    <li>Took on roles of photographer, poser, and editor for family photos, pet photos, advertisements, and special events</li>
+	    <li>Learned production processes for creating commercial items like sports posters, coasters, keychains, and photo prints</li>
+	    <li>Collaborated with both clients and commercial photographer peers on completing products and projects</li>
+	    <li>Gained communication and marketing skills both verbally and on social media platforms</li>
+         </ul>
+       </p>
+       <p><b>Network Defense</b> (September 2021 – March 2023) <br>
+         <b><i>Air Force National Cyberpatriots Cybersecurity Competition</i></b><br>
+	 <ul>
+	    <li>Competed as a Network Defender and gained hands-on experience in hardening and securing virtual machines</li>
+	    <li>Led as a captain of 3 from ‘21-’22 and a captain of 6 from ‘22-’23 earning placements in Gold and Platinum</li>
+	    <li>Strategized and researched methods to further secure systems such as Windows 10, Windows Server, and Linux</li>
+	    <li>Reported and presented progress made and information learned after each round of competing </li>
+         </ul>
+       </p>
+
+    </div>
+
+  </div> <!-- end of right side -->
+
+    
+</div>
+
+<!-- CONTACTS BLOCK -->
+    <div class="footer">
+      <h3>Find Me Here</h3>
+      <p><b>LinkedIn:</b> alexmartinezcepeda <br>
+         <b>Instagram (Photography):</b> chaosuncurated <br>
+         <b>Email:</b> amartinezcepeda23@gmail.com
+      </p>
+    </div>
+
+</body>
+</html>
+
+
+
